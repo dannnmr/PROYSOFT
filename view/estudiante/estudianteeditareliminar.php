@@ -58,7 +58,7 @@
 						<label class="control-label" style="position:relative; top:7px;">Fecha de Nacimiento:</label>
 					</div>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" name="fechanacimiento" value="<?php echo $r->fechanacimiento; ?>">
+						<input type="date" class="form-control" name="fechanacimiento" value="<?php echo $r->fechanacimiento; ?>">
 					</div>
 				</div>
 				<div class="row form-group">
